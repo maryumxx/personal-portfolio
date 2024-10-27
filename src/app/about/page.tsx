@@ -17,7 +17,9 @@ export default function About() {
               a full-fledged platform. I go beyond to produce sites with a
               unique, outstanding, contemporary look-and-feel.
             </p>
+            <a href="resume.pdf" download>
             <button className={styles.button}>DOWNLOAD CV</button>
+            </a>
           </div>
 
           <div className={styles.section2}>
