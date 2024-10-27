@@ -8,7 +8,7 @@ export default function About() {
         <SideNav />
         <div className={styles.section}>
           <div className={styles.section1}>
-            <h2 className={styles.h2}>// BIOGRAPHY</h2>
+            <h2 className={styles.h2}>{`// BIOGRAPHY`}</h2>
             <p>
               Hi, my name is James Cameron and I began using WordPress when it
               first began. {`I've`} spent most of my waking hours for the last
@@ -21,7 +21,7 @@ export default function About() {
           </div>
 
           <div className={styles.section2}>
-            <h2 className={styles.h2}>// PERSONAL DETAILS</h2>
+            <h2 className={styles.h2}>{`// PERSONAL DETAILS`}</h2>
             <div className={styles.flex}>
               <div className="font-semibold">
                 <p>Name:</p>
@@ -50,7 +50,7 @@ export default function About() {
       <main>
         <div className="flex justify-around">
           <div className={styles.section3}>
-            <h2 className={styles.h2}>// EDUCATION</h2>
+            <h2 className={styles.h2}>{`// EDUCATION`}</h2>
             <div className={styles.edu}>
               <div>
                 <h5 className={styles.h5}>Hamdard University</h5>
@@ -73,7 +73,7 @@ export default function About() {
             </div>
           </div>
           <div className={styles.section2}>
-            <h2 className={styles.h2}>// EXPERIENCE</h2>
+            <h2 className={styles.h2}>{`// EXPERIENCE`}</h2>
             <div className={styles.edu}>
               <div>
                 <h5 className={styles.h5}>Sales Executive</h5>
@@ -101,7 +101,7 @@ export default function About() {
       <main>
         <div className={styles.section}>
           <div className={styles.section4}>
-            <h2 className={styles.h2}>// FUN FACTS</h2>
+            <h2 className={styles.h2}>{`// FUN FACTS`}</h2>
             <div className="flex gap-x-20">
                 <div className={styles.boxes}>
                     <h2 className={styles.h}>10+</h2>

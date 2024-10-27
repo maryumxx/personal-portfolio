@@ -6,7 +6,7 @@ export default function Portfolio() {
     <main>
       <SideNav />
       <div className={styles.sectionCards}>
-        <h2 className={styles.creativePortfolio}>// CREATIVE PORTFOLIO</h2>
+        <h2 className={styles.creativePortfolio}>{`// CREATIVE PORTFOLIO`}</h2>
         <section className={styles.cardDiv}>
           {/* 1 */}
           <a href="https://mxryxms-nextjs-ecommerce.vercel.app/?vercelToolbarCode=xwed70KPo0Uv4hW">

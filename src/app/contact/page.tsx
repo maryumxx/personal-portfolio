@@ -1,12 +1,12 @@
 import styles from "@/styles/Home.module.css";
 import SideNav from "../components/sidenav";
-import { MapPin } from "lucide";
+
 
 export default function Contact() {
   return (
     <main>
       <SideNav />
-      <h2 className={styles.contactUs}>// GET IN TOUCH</h2>
+      <h2 className={styles.contactUs}>{`// GET IN TOUCH`}</h2>
       <div className={styles.nCardContacts}>
         <div className={styles.contactCards}>
           <div className={styles.boxesContact}>

@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className={styles.div2}>
           <div className={styles.flex2}>
-            <h3 className={styles.h3}>// MARYAM NADEEM</h3>
+            <h3 className={styles.h3}>{`// MARYAM NADEEM`}</h3>
             <h1 className={styles.h1}>
               CREATIVE DESIGNER <br /> AND DEVELOPER
             </h1>

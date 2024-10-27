@@ -77,12 +77,12 @@
 }
 
 .imageContainer {
-  padding: 20px; /* Adds space around the inner image */
+  padding: 20px;
   margin-top: 125px;
   transform: rotate(4deg);
   max-width: 500px;
-  position: relative; /* Needed for the ::before pseudo-element */
-  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth transition */
+  position: relative;
+  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .imageContainer::before {
@@ -96,7 +96,7 @@
   z-index: -1;
   transform: rotate(-8deg);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth transition */
+  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .imageContainer img {
@@ -104,15 +104,15 @@
   width: 500px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth transition */
+  transition: transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1); 
 }
 
 .imageContainer:hover {
-  transform: rotate(-4deg); /* Slight tilt in the opposite direction on hover */
+  transform: rotate(-4deg);
 }
 
 .imageContainer:hover::before {
-  transform: rotate(6deg); /* Slight tilt on hover */
+  transform: rotate(6deg); 
 }
 
 .flex2 {
