@@ -36,7 +36,7 @@ export default function About() {
                 <p>Maryam Nadeem</p>
                 <p>Karachi, Pakistan</p>
                 <p>Hamdard University</p>
-                <p>Bachelor's Of Computer Science</p>
+                <p>{`Bachelor's`} Of Computer Science</p>
                 <p>+92 3341283432</p>
                 <p>maryambuttxx@gmail.com</p>
                 <p>Available</p>
