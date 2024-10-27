@@ -35,7 +35,9 @@ export default function Home() {
             <h1 className={styles.h1}>
               CREATIVE DESIGNER <br /> AND DEVELOPER
             </h1>
+            <Link href="/contact">
             <button className={styles.button}>GET IN TOUCH</button>
+            </Link>
           </div>
           <div className={styles.imageContainer}>
             <img src="myportfolio.png" alt="" />
