@@ -10,12 +10,7 @@ export default function About() {
           <div className={styles.section1}>
             <h2 className={styles.h2}>{`// BIOGRAPHY`}</h2>
             <p>
-              Hi, my name is James Cameron and I began using WordPress when it
-              first began. {`I've`} spent most of my waking hours for the last
-              ten years designing, programming and operating WordPress sites.
-              One of my specialties is taking an idea from scratch and creating
-              a full-fledged platform. I go beyond to produce sites with a
-              unique, outstanding, contemporary look-and-feel.
+              Hi, my name is Maryam Nadeem, a dedicated web developer with hands-on experience in TypeScript, core HTML, CSS, TailwindCSS and Next.js. With over 10 projects under my belt, I’m constantly driven to expand my knowledge and skill set. I'm a quick learner who enjoys taking on new challenges in web development. I’m eager to keep building my skills and contribute useful solutions as the field grows.
             </p>
             <a href="resume.pdf" download>
             <button className={styles.button}>DOWNLOAD CV</button>
