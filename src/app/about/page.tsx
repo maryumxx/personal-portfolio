@@ -10,7 +10,7 @@ export default function About() {
           <div className={styles.section1}>
             <h2 className={styles.h2}>{`// BIOGRAPHY`}</h2>
             <p>
-              Hi, my name is Maryam Nadeem, a dedicated web developer with hands-on experience in TypeScript, core HTML, CSS, TailwindCSS and Next.js. With over 10 projects under my belt, I’m constantly driven to expand my knowledge and skill set. I'm a quick learner who enjoys taking on new challenges in web development. I’m eager to keep building my skills and contribute useful solutions as the field grows.
+            Hi, my name is Maryam, and {`I’ve`} been passionate about web development since I started learning programming languages. Over the years, {`I’ve`} dedicated countless hours to designing, programming, and refining web projects. One of my specialties is transforming ideas into fully developed, impactful websites. I strive to deliver sites with a fresh, engaging, and polished look and feel, always pushing the boundaries of {`what’s`} possible.
             </p>
             <a href="resume.pdf" download>
             <button className={styles.button}>DOWNLOAD CV</button>
